@@ -16,8 +16,8 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
   
-    Test message again. 
-    
+    When you want to test out experimental features on your master branch but would like to keep the master branch as the head and clean. 
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
