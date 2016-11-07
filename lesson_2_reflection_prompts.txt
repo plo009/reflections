@@ -19,6 +19,8 @@ organized? How would branches help?
     When you want to test out experimental features on your master branch but would like to keep the master branch as the head and clean. 
 
 How do the diagrams help you visualize the branch structure?
+    
+    Visualizes the tree structure of the git branches, gives an idea on how branches are related to the master branch and the reachability of commits and their parents.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
