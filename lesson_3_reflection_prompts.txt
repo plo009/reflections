@@ -9,5 +9,9 @@ Describe the differences between forks, clones, and branches. When would you use
     You can clone a online repository to your local machine or a local repository to a different location on your machine
     A branch is kind of like a clone such that you can work on new or experimental features on the branch and not change the master branch, you can also merge two branches together to combine the features on different branches.
 
-  
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    git pull = git fetch + git merge
+    You can know if you repository is ahead or behind the remote. 
+    When merge conflict occures between your repository and the remote you can use origin/master to merge with your master to solve the conflict and commit the merge and lasly push your changes.
+
     
