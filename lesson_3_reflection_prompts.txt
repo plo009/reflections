@@ -14,4 +14,6 @@ What is the benefit of having a copy of the last known state of the remote store
     You can know if you repository is ahead or behind the remote. 
     When merge conflict occures between your repository and the remote you can use origin/master to merge with your master to solve the conflict and commit the merge and lasly push your changes.
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+    Collaborating with GitHub or any version control would make everything alot harder. There will be no logs of changes or updates, no detection of differences and conflict as well as conflict solving method. It would also be difficult syncing muiltiple files and sharing it between multiple users.
     
