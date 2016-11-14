@@ -7,7 +7,7 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
     A fork is a clone on GitHub of a repository on GitHub. 
     You can clone a online repository to your local machine or a local repository to a different location on your machine
-    A branch is kind of like a clone such that you can work on new or experimental features on the branch and not change the master branch, you can also merge two branches together to combine the features on different branches.
+    A branch is kind of like a clone such that you can work on new or experimental features on the branch and not change he master branch, you can also merge two branches together to combine the features on different branches.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
     git pull = git fetch + git merge
@@ -17,3 +17,11 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
     Collaborating with GitHub or any version control would make everything alot harder. There will be no logs of changes or updates, no detection of differences and conflict as well as conflict solving method. It would also be difficult syncing muiltiple files and sharing it between multiple users.
     
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+    ***cbuckey-uda answer***
+
+    I tend to work directly in master more often when I'm working on my own or
+    with just one or two other people.  When working with a large group, though,
+    using branches to keep track of which changes have already been reviewed and
+    approved is extremely helpful.
